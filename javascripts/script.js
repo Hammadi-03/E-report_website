@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
 	// Initialize AOS 
 	if (window.AOS && typeof AOS.init === 'function') {
