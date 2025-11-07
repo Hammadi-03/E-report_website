@@ -107,6 +107,9 @@ body, * {
   margin-bottom: 10px;
   font-size: 2rem;
   font-weight: normal;
+  transform: rotate(-3deg);
+  margin-top: -5px;
+  border-radius: 10px;
 }
 
 .overlay-card h1 span {
