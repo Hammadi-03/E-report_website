@@ -98,7 +98,7 @@ body, * {
 }
 
 .overlay-card h1::before {
-  content: "Welcome to";
+  content: "Welcome to IDN";
   display: inline-block;
   background-color: #f9fd0d;
   color: rgb(44, 44, 44);

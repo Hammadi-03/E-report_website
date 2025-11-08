@@ -134,21 +134,24 @@ IDN E-Report is an official reporting platform designed to enhance communication
   </div>
 </section>
 
-
-
-
-<!---Report---->
-
-
-
-
-
-
-
 <!---Footer---->
+<script>
+  // Pure CSS-like scroll animation trigger
+  const faders = document.querySelectorAll('.fade-on-scroll');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+  faders.forEach(fader => observer.observe(fader));
+</script>
 
 
-
+<footer class="bg-white text-center py-3 mt-5 border-top position-sticky">
+  <p class="mb-0 text-secondary small">&copy; 2025 IDN SENTUL IDN E-Report | All Rights Reserved </p>
+</footer>
 
   <!-- Bootstrap JS (bundle includes Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
